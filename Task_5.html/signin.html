@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>
+                <font color="red">360Digrii</font>Basket
+            </h1>
+
+            <a href="index.html">Index</a>|
+            <a href="fruits.html">Fruits</a>|
+            <a href="flowers.html">Flowers</a>|
+            <a href="#">SignIn</a>|
+            <a href="signup.html">SignUp</a>
+        </center>
+
+    </header>
+    <hr>
+    <form name="Signin" action="http.server" method="post">
+        <table cellspacing="5px" cellpadding="5px" align="center">
+            <caption><strong>SignIn</strong></caption>
+
+            <tr>
+                <td>
+                    <label for="fullName">Full Name</label>
+                </td>
+                <td><input type="text" id="fullName" name="fullName" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="mobileNumber">Mobile Number</label>
+                </td>
+                <td> <select name="countryCode" id="countryCode">
+                        <option value="IN">+91</option>
+                        <option value="UK">+44</option>
+                        <option value="US">+1</option>
+                        <option value="AUS">+61</option>
+                    </select>
+                    <input type="tel" id="mobileNumber" name="mobileNumber" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pinCode">Pin Code</label>
+                </td>
+                <td><input type="number" name="pinCode" id="pinCode" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td><input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="userID">User ID</label>
+                </td>
+                <td> <input type="text" name="userID" id="userID" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td> <input type="password" name="password" id="password" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Register">
+                </td>
+                <td><input type="reset" value="Erase">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+    <hr>
+    <footer>
+        <center>
+            <font color="blue">copyright@360Digrii</font>
+        </center>
+    </footer>
+</body>
+
+</html>
